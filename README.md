@@ -1,3 +1,5 @@
+[![unit-tests](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/unit-tests.yml)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
