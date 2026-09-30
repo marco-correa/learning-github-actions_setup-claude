@@ -1,4 +1,4 @@
-[![unit-tests](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/unit-tests.yml)
+[![actions](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/validate.yml/badge.svg)](https://github.com/marco-correa/learning-github-actions_setup-claude/actions/workflows/validate.yml)
 
 # React + TypeScript + Vite
 
