@@ -1,5 +1,5 @@
 name: tests
-run-name: ${{github.actor}} trigged the tests
+# run-name: ${{github.actor}} trigged the tests
 on: [push]
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
           node-version: "24"
           cache: "npm"
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
   tests:
     runs-on: ubuntu-latest
     steps:
