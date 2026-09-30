@@ -1,7 +1,7 @@
-import { ButtonHTMLAttributes } from 'react';
-import './Button.css';
+import type { ButtonHTMLAttributes } from "react";
+import "./Button.css";
 
-type ButtonVariant = 'primary' | 'secondary';
+type ButtonVariant = "primary" | "secondary";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
@@ -9,7 +9,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 export const Button = ({
-  variant = 'primary',
+  variant = "primary",
   children,
   ...props
 }: ButtonProps) => {
