@@ -2,7 +2,7 @@ name: validate
 # run-name: ${{github.actor}} trigged the tests
 on:
   schedule:
-    - cron: 5 * * * *
+    - cron: "5 * * * *"
   push:
 jobs:
   build:
