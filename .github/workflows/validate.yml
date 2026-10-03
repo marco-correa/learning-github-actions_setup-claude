@@ -1,9 +1,9 @@
 name: validate
 # run-name: ${{github.actor}} trigged the tests
 on:
-  push:
   schedule:
     - cron: 5 * * * *
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
